@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TO Do List</string>
+
+    <string-array name="days">
+        <item>Programming</item>
+        <item>Exams</item>
+        <item>Reading</item>
+        <item>Cooking</item>
+        <item>Homeworks</item>
+        <item>Exercise</item>
+        <item>Cleaning</item>
+    </string-array>
+</resources>
