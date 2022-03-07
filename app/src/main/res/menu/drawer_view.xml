@@ -3,11 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-
-    <item android:title="dfdf">
-            app:menu="@menu/activity_main_drawer" />
-    </item>
-
     <item android:title="Name">
         <menu>
 
