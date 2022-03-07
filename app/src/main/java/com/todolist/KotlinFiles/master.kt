@@ -17,7 +17,8 @@ class master : AppCompatActivity() {
         binding = CardViewDesignBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // getting the recyclerview by its id
+        // getting the
+        recyclerview by its id
         val recyclerview = findViewById<RecyclerView>(R.id.recyclerview)
 
         // this creates a vertical layout Manager
