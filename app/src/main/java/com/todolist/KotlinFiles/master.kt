@@ -6,14 +6,15 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.todolist.R
-import com.todolist.databinding.ActivityMasterBinding
+import com.todolist.databinding.ActivityMainBinding
+import com.todolist.databinding.CardViewDesignBinding
 
 class master : AppCompatActivity() {
-    lateinit var binding : ActivityMasterBinding
+    lateinit var binding : CardViewDesignBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMasterBinding.inflate(layoutInflater)
+        binding = CardViewDesignBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // getting the recyclerview by its id
@@ -36,9 +37,6 @@ class master : AppCompatActivity() {
 
         // Setting the Adapter with the recyclerview
         recyclerview.adapter = adapter
-
-        
-
 
     }
 }*/
