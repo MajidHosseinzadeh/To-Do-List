@@ -17,6 +17,7 @@ class master : AppCompatActivity() {
         binding = CardViewDesignBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         // getting the
         recyclerview by its id
 
