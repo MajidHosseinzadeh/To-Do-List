@@ -19,6 +19,7 @@ class master : AppCompatActivity() {
 
         // getting the
         recyclerview by its id
+
         val recyclerview = findViewById<RecyclerView>(R.id.recyclerview)
 
         // this creates a vertical layout Manager
