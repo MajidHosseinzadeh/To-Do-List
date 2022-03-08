@@ -13,8 +13,8 @@
         android:id="@+id/item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
         android:orientation="horizontal"
-        android:background="#3949AB"
         android:padding="5dp">
 
         <RadioButton
