@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_first_fragment"
-            android:icon="@drawable/category_rounded"
-            android:title="First" />
-        <item
-            android:id="@+id/nav_second_fragment"
-            android:icon="@drawable/ic_baseline_arrow_forward_24"
-            android:title="Second" />
-        <item
-            android:id="@+id/nav_third_fragment"
-            android:icon="@drawable/category_rounded"
-            android:title="Third" />
-    </group>
+
+    <item android:title="Name">
+        <menu>
+
+            <item android:id="@+id/nav_item_profile"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Profile" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="">
+        <menu>
+
+            <item android:id="@+id/nav_item_about"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="about" />
+        </menu>
+    </item>
+
 
 </menu>
