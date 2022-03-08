@@ -133,8 +133,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/calender_rounded"
         android:backgroundTint="@color/myPink"
-        android:scaleX="0"
-        android:scaleY="0"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/drawer_layout"
         app:layout_constraintEnd_toEndOf="parent"
