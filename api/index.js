@@ -7,6 +7,7 @@ const userRoute = require("./routes/users");
 
 dotenv.config();
 
+
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
