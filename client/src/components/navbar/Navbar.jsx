@@ -28,7 +28,7 @@ const Navbar = () => {
           <span>KID</span>
           <Notifications className="icon" />
           <img
-            src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="https://www.daserste.de/unterhaltung/film/sherlock/videos/sherlock-154~_v-facebook1200_997b57.jpg"
             alt=""
           />
           <div className="profile">
